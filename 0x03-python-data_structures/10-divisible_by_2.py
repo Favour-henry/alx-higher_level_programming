@@ -1,11 +1,11 @@
 #!/usr/bin/python3
-# 10-divisible_by_2.py
-
 def divisible_by_2(my_list=[]):
-    boolist = my_list[i]
-    for count, i in enumerate(my_list):
-        if i % 2 == 0:
-            boolist count = True
+    check_div = []
+
+    for i in range(len(my_list)):
+        if my_list[i] % 2 == 0:
+            check_div.append(True)
         else:
-            boolist count = false
-    return(boolist)
+            check_div.append(False)
+
+    return (check_div)
